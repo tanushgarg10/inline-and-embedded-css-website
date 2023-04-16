@@ -1,1 +1,337 @@
 # inline-and-embedded-css-website
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" >
+
+		<title>Tanush Garg </title>
+		<style>
+			 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@200&display=swap');
+
+			div{
+
+				 Border: 1px solid #073B4C;
+				 text-align: center;
+				 border-radius: 20px;
+				 background: hsla(203, 60%, 59%, 1);
+					background: linear-gradient(90deg, hsla(203, 60%, 59%, 1) 0%, hsla(174, 77%, 74%, 1) 100%);
+					background: -moz-linear-gradient(90deg, hsla(203, 60%, 59%, 1) 0%, hsla(174, 77%, 74%, 1) 100%);
+					background: -webkit-linear-gradient(90deg, hsla(203, 60%, 59%, 1) 0%, hsla(174, 77%, 74%, 1) 100%);
+					filter: progid: DXImageTransform.Microsoft.gradient( startColorstr="#57A5D5", endColorstr="#8BF0E6", GradientType=1 );
+			    	color: #191919; 
+				}
+                body{
+			    	
+					width: 100%;
+					max-width: 1400px;
+					display: block;
+					margin: auto;
+					min-height: 100vh;
+					background: #CCE7FF;
+					font-family: sans-serif;
+					font-size: 150%;
+					border: 3px solid #191919;
+					border-radius: 20px;
+					font-family: 'Poppins', sans-serif;
+				 	}
+					.navbar {
+						width: 100%;
+						display: flex;
+						justify-content: center;
+						align-items: center;
+						background: #CCE7FF;
+					}
+					  
+					.link-group {
+						list-style: none;
+						display: flex;
+					}
+					  
+					.link a {
+						color: black;
+						opacity: 0.5;
+						text-decoration: none;
+						text-transform: capitalize;margin: 0 20px;transition: 0.5s;
+					 }
+					  
+					.link a:hover,
+					.link.active a {
+						opacity: 1;
+					}
+				 .hr{
+						border-top: 10px black;
+					}
+						
+				
+		</style>
+
+</head>
+
+<body>
+    <div>
+
+	 <h1>  Tanush Garg  </h1> 
+	<h2> tanush.garg@s.amity.edu  | +91 8355848660 | @tanush__garg </h2>
+    </div>
+ 
+	<nav class="navbar">
+	<ul class="link-group">
+	  <li class="link active"><a href="#home">home</a></li>
+	  <li class="link"><a href="#projects">projects</a></li>
+	  <li class="link"><a href="#about">about</a></li>
+	  <li class="link"><a href="#Contact">contact</a></li>
+	</ul>
+  </nav>
+   <hr>
+	
+	<table id="home">
+		
+			<tr>
+				<td>
+					<h1 style = "font-style: italic">
+						Hey Everyone!
+							
+					</h1>
+
+					<h2 style = "font-style: italic">
+								
+						I am a Freelance Web Developer and A 2nd Year CSE Student..! 
+								
+					</h2>
+				</td>
+			</tr>
+	</table>
+	<hr>
+
+	<table id="about">
+		
+		<u><h2 style = "font-style: italic">About Me </h2></u>
+            <p> 	Thanks for your interest, here is a quick story of me and this website.
+			 
+			</p>
+
+	<ul>
+		<li>
+			Hello, I am Tanush Garg a 2nd-year student pursuing Computer Science Engineering @Amtiy University Mumbai(AUM). 
+		</li>
+		<li> 
+			I am having a new campus experience at AUM, meeting new people, learning new skills and much more. 
+		</li>
+
+		<li> 
+			As a driven and ambitious 2nd-year computer science student, I am eager to expand my knowledge and gain practical experience in the field. 
+		</li>
+		
+		<li> 
+			I am particularly interested in the areas of Data Science And Machine Learning and am actively seeking opportunities to further explore these subjects. 
+		</li>
+		
+		<li>
+			I am open to opportunities for internships, co-op positions, or other projects where I can contribute my skills and gain hands-on experience.
+		</li> 
+		<li>
+			This website is basically one of my Web Development project which is built using HTML only.
+		</li>
+		<p>
+			<b>Let's connect to explore how we can work together to achieve our goals in the tech industry. <br>
+				Thanks again for reading this, because of people like you, it exists and prospers! Cheers !! 
+			</b>
+		</p>
+	</ul>
+    <table id = "Skills">
+            <tr>
+                <td>
+                    <h2>Skills:- </h2>
+                </td>
+            </tr>
+            <table style="font-size: 20;">
+                <tr>
+                    <td>
+                        <ul>
+                            <li>
+                                Html
+                            </li>
+                            <li>
+                                C/C++
+                            </li>
+                            <li>
+                                Photoshop
+                            </li>
+                            <li>
+                                Illustrator
+                            </li>
+							<li>
+								Corel Draw
+							</li>
+							<li>
+								Ms Office
+							</li>
+                        </ul>
+                    </td>
+                </tr>
+            </table>
+            
+     </table>
+
+    <table id="Education" >
+            <tr>
+                <td>
+                    <table >
+                        <tr>
+                            <td>
+                                    <h2>Education :-</h2>
+                            </td>
+                        </tr>
+    
+                        <tr style="font-size: 20;">
+                            <td>
+                                <ul>
+                                    <li> Btech Cse Student (2021-25) of Amity University, Mumbai </li>
+									<li>Have Received 100% Scholarship in 1st Year & 50% in 2nd </li>  
+                                    <li> Cleared 12 <sup>th</sup> from @Rao Jumior College Of Science in 2021 & Secured 94% in Boards</li> 
+                                    <li> Cleared 10 <sup>th</sup> from @Ryan International School in 2019 & Secured 83% in Boards</li>
+                                </ul>
+    
+                                
+                            </td>
+                        </tr>
+                    </table>
+                </td>
+            </tr>
+     </table>
+        
+    
+</table>
+<hr>
+<table id="projects">
+	<tr>
+		<td>
+			<table>
+				<tr>
+					<td>
+						<u> <h1 style = "font-style: italic">Projects </h1> </u>
+						
+					<ul style="font-size: 20;">
+						<li> A portfolio Website Made Just With HTML. <a href="https://codepen.io/tanushgarg/pen/oNagoOJ"> Codepen link</a></li><br>
+					 <li>
+						A No Code Website By Webflow <a href="https://tanush-packaging.webflow.io">(Link)</a>
+					 </li><br>
+					 <li>
+						A Hover Effect Css Project <a href="https://codepen.io/tanushgarg/pen/yLRyPmo"> Codepen Link</a>
+					 </li>
+					</td>
+				</tr>
+
+				<tr>
+			</table>
+		</td>
+	</tr>
+</table>
+<hr>
+<table id = "Contact">
+	<tr>
+		<td>
+			<u> <h1 style = "font-style: italic"> Contact</h1> </u>
+		</td>
+	</tr>
+
+	<tr>
+		<td>
+			<br>
+			<form style="font-size: 20;">
+				<label for="Name"> Name:- </label><br>
+				<input type="text" id = "Name" Name = "Name" required = "text"><br>
+				<br>
+				<label for="E-mail"> E-MAIL:- </label><br>
+				<input type="email" id = "E-mail" Name = "E-mail" required = "E-mail"><br>
+				<br>
+				<label for="Phone No."> Phone No:- </label><br>
+				<input type="Number" id = "Number" Name = "Number" required = "number"><br>
+				<br>
+				<label for="Feedback"> Feedback:- </label> <br>
+				<textarea name="Feedback" id="Feedback" cols="30" rows="10"></textarea><br>
+				<br>
+				<input type="submit" value="submit">
+				
+			</form>
+		</td>
+	</tr>
+</table>  
+<hr>
+	<footer>
+		<p><table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+	
+							<td >
+								<a href="https://www.instagram.com/tanush__garg/?next=%2F" > Instagram
+									
+								</a>
+							</td>
+							<td>
+								|
+							</td>
+			
+							<td >
+								<a href="https://twitter.com/garg_tanush" > twitter
+											
+								</a>
+							</td>
+			
+							<td>
+								|
+							</td>
+	
+							<td >
+								<a href="mailto: tanushnick10@gmail.com" > E-Mail
+									
+								</a>
+							</td>
+							<td>
+								|
+							</td>
+							<td>
+								<a href="https://www.linkedin.com/in/tanush-g-21aa0b11b/"> LinkedIn
+	
+								</a>
+							</td>
+							<td>
+								|
+							</td>
+							<td>
+								<a href="https://github.com/tanushgarg10">GitHub
+	
+								</a>
+							</td>
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	
+		<table>
+			<tr>
+				<td>
+					<table>
+						<tr>
+							<td><p>
+									©Copyright 2023 by Tanush.
+									All rights reserved.
+								</p>
+							</td>
+	
+							
+						</tr>
+					</table>
+				</td>
+			</tr>
+		</table>
+	</footer>
+		
+
+</body>
+
+</html>
+
+
